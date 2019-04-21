@@ -114,7 +114,7 @@ namespace ConsoleApp4
             int minInt = int.MaxValue;
             Console.WriteLine( minInt );    
             Console.WriteLine(-minInt);
-            minInt = int.MaxValue;
+            minInt = int.MinValue;
             Console.WriteLine(minInt);
             Console.WriteLine( - minInt );  // 주의: 양수에는 2147483648이 없어서 값이 변하지 않음
             Console.WriteLine(minInt * -1);  // 주의: 양수에는 2147483648이 없어서 값이 변하지 않음
